@@ -6,8 +6,8 @@
 
 body{
     width: 100%;
-    background-image: linear-gradient(to right, lightgray, gray, lightgray);
-    background-repeat: no-repeat;
+    /* background-image: linear-gradient(to right, lightgray, gray, lightgray);
+    background-repeat: no-repeat; */
     align-items: center;
 }
 
@@ -18,5 +18,8 @@ body{
     background-image: url("../images/front_img4.jpg");
     background-position: center;
     background-size: cover;
-    margin-top: 2%;
+}
+
+section{
+    height: 600px;
 }

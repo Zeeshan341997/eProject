@@ -127,3 +127,6 @@ body{
     box-shadow: 0 7px 9px 0 rgb(32 33 36 / 60%);
 }
 
+section{
+    height: 700px;
+}
