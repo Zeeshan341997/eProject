@@ -35,13 +35,13 @@ nav{
     text-shadow: 1px 1px 5px rgb(27, 233, 8);
 }
 
-i.bi-house-fill,i.bi-inbox-fill,i.bi-telephone-fill,i.bi-geo-alt-fill,i.bi-people-fill{
+i.bi-house-fill,i.bi-cart4,i.bi-telephone-fill,i.bi-geo-alt-fill,i.bi-people-fill{
     font-size: x-large;
     position: relative;
 }
 
 i.bi-house-fill:hover,
-i.bi-inbox-fill:hover,
+i.bi-cart4:hover,
 i.bi-telephone-fill:hover,
 i.bi-geo-alt-fill:hover,
 i.bi-people-fill:hover{
@@ -76,5 +76,5 @@ i.bi-people-fill:hover{
   }
 
 .navbar-nav > li{
-    padding: 0 20px;  
+    padding: 0 40px;  
 }
