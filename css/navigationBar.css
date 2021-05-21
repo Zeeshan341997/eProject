@@ -38,6 +38,7 @@ nav{
 i.bi-house-fill,i.bi-cart4,i.bi-telephone-fill,i.bi-geo-alt-fill,i.bi-people-fill{
     font-size: x-large;
     position: relative;
+    border: 1px solid black;
 }
 
 i.bi-house-fill:hover,
