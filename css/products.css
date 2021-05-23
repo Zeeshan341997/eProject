@@ -5,7 +5,7 @@
 }
 
 body{
-    display: flex;
+    box-sizing: border-box;
     justify-content: center;
     align-items: center;
 }
@@ -17,6 +17,7 @@ body{
     display: flex;
     width: 55%;
     height: 35%;
+    margin-bottom: 20px;
 }
 
 .card-box .circle-animation{
@@ -127,6 +128,16 @@ body{
     box-shadow: 0 7px 9px 0 rgb(32 33 36 / 60%);
 }
 
-section{
-    height: 700px;
+.products::-webkit-scrollbar{
+    display: none;
+}
+
+.tabs-btn{
+    display: flex;
+    width: 600px;
+    position: relative;
+    margin-top: 10%;
+}
+.brand-btn{
+    width: 250px;
 }
