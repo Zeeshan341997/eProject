@@ -27,8 +27,7 @@
     
   </head>
   <body class="animated fadeIn slow">
-    <!-- header start here -->
-    <header class="container-fluid home-section">
+    
       <!-- navigation bar start here -->
       <nav class="navbar navbar-expand-md fixed-top" id="colorChange">
         <div class="container navigation-bar">
@@ -84,12 +83,11 @@
         </div>     
       </nav>
       <!-- navigation bar end here -->
-  </header>
-  <!-- heaer end here -->
+ 
   <section>
     <h1 class="text-center">Our Services</h1>
 
-    <div class="container mt-3 demo-about-page p-3">
+    <div class="container mt-5 demo-about-page p-3">
         <div class="content-box">
           <div class="col-md-6 p-3">
             <h1>Demo</h1>
@@ -100,20 +98,58 @@
           </div>
         </div>
     </div>
-    <h1 class="text-center">Our Team</h1>
-
-    <div class="container mt-3 demo-about-page">
-        <div class="content-box p-5">
-            <div class="col-md-6 p-3">
-                <h1>Demo</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <div class="hero">
+      <h1 class="text-center mb-5">Our Team</h1>
+      <div class="review-box container">
+        <div id="slide">
+          <div class="student-card p-3" id="zeeshan">
+            <div class="student-profile">
+              <img src="../images/member1.JPG" alt="student1">
+              <div>
+                <h3>Zeeshan</h3>
+                <p>Front-end Deveoper</p>
+              </div>
             </div>
-            <div class="col-md-6 p-3">
-              <h1>Demo</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p>student1302177. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="student-card p-3" id="vishal">
+            <div class="student-profile">
+              <img src="../images/member1.JPG" alt="student1">
+              <div>
+                <h3>Vishal</h3>
+                <p>Front-end Deveoper</p>
+              </div>
             </div>
+            <p>student1302177. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="student-card p-3" id="sualeh">
+            <div class="student-profile">
+              <img src="../images/member1.JPG" alt="student1">
+              <div>
+                <h3>Sualeh</h3>
+                <p>Front-end Deveoper</p>
+              </div>
+            </div>
+            <p>student1302177. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="student-card p-3" id="riyasat">
+            <div class="student-profile">
+              <img src="../images/member1.JPG" alt="student1">
+              <div>
+                <h3>Riyasat</h3>
+                <p>Front-end Deveoper</p>
+              </div>
+            </div>
+            <p>student1302177. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
         </div>
+        <div class="sidebar">
+          <i class="fas fa-angle-double-up" id="upArrow" onclick="mySliderUp()"></i>
+          <i class="fas fa-angle-double-down" id="downArrow" onclick="mySliderDown()"></i>
+        </div>
+      </div>
     </div>
+    
     <h1 class="text-center">About Us</h1>
 
     <div class="container mt-3 demo-about-page">
@@ -136,8 +172,6 @@
   <script src="../js/jquery-3.3.1.min.js"></script>
   <script src="../js/popper.min.js"></script>
   <script src="../js/bootstrap-5.js"></script>
-
-
 
   <!-- Optional JavaScript -->
   <script src="../js/script.js"></script>

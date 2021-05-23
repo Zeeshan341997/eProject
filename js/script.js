@@ -27,3 +27,20 @@ function navColor() {
 }
 
 window.addEventListener('scroll', navColor);
+
+
+function mySliderUp(){
+
+    document.getElementById("slide").style.top = "-100%";
+    document.getElementById("slide").style.animation = "fadeInUp";
+    document.getElementById("slide").style.animationDuration = "0.8s";
+    
+}
+function mySliderDown(){
+    document.getElementById("slide").style.top = "0";
+    document.getElementById("slide").style.animation = "fadeInDown";
+    document.getElementById("slide").style.animationDuration = "0.8s";
+}
+
+
+
