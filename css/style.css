@@ -6,8 +6,6 @@
 
 body{
     width: 100%;
-    /* background-image: linear-gradient(to right, lightgray, gray, lightgray);
-    background-repeat: no-repeat; */
     align-items: center;
 }
 
@@ -20,6 +18,29 @@ body{
     background-size: cover;
 }
 
-section{
-    height: 600px;
+#titl{
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightblue;
+    color: blue;
+    padding: 20px 20px 20px 20px;
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 60px;
+    border-radius: 5px 5px 15px 15px;
+}
+#titl2{
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightblue;
+    color: blue;
+    padding: 20px 20px 20px 20px;
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 380px;
+    border-radius: 5px 5px 15px 15px;
 }
