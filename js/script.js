@@ -40,3 +40,10 @@ function mySliderDown(){
     document.getElementById("slide").style.animation = "fadeInDown";
     document.getElementById("slide").style.animationDuration = "0.8s";
 }
+    
+AOS.init({
+duration: 2500,
+once: false,
+
+});
+    
