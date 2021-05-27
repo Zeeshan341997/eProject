@@ -1,3 +1,5 @@
+// navigationbar 
+
 function navColor() {
     if(window.scrollY){
         document.getElementById("colorChange").style.background = "white";
@@ -28,6 +30,7 @@ function navColor() {
 
 window.addEventListener('scroll', navColor);
 
+// our team slider
 
 function mySliderUp(){
 
@@ -40,7 +43,8 @@ function mySliderDown(){
     document.getElementById("slide").style.animation = "fadeInDown";
     document.getElementById("slide").style.animationDuration = "0.8s";
 }
-    
+    // animation
+
 AOS.init({
 duration: 2500,
 once: false,
