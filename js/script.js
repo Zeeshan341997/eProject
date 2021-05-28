@@ -51,3 +51,14 @@ once: false,
 
 });
     
+function toggleMenu(){
+    var menuToggle = document.querySelector('.toggle');
+    var navigation = document.querySelector('.tabs-btn');
+    menuToggle.classList.toggle('active');
+    navigation.classList.toggle('active');
+}
+
+function toggleMenu(){
+    document.getElementById('brands').style.display = "none";
+
+}
