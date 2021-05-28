@@ -158,6 +158,7 @@ body{
     width: 120px;
 }
 
+
 .toggle{
     opacity: 0;
     visibility: hidden;
@@ -191,7 +192,7 @@ body{
         background-position: center;
         background-repeat: no-repeat;
     }
-
+    
     .brand-btn{
         margin: 10px;
         height: 100px;
@@ -200,7 +201,7 @@ body{
         text-align: center;
     }
 
-	.tabs-btn
+	.tabs-btn.active
 	{
 		position: relative;
 	    margin-top: 20%;
@@ -212,4 +213,11 @@ body{
 		flex-direction: column;
 		background: #fff;
 	}
+    .tabs-btn{
+        display: none;
+    }
+
+    .products{
+        margin-top: 30%;
+    }
 }

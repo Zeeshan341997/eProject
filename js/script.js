@@ -58,7 +58,5 @@ function toggleMenu(){
     navigation.classList.toggle('active');
 }
 
-function toggleMenu(){
-    document.getElementById('brands').style.display = "none";
 
-}
+
