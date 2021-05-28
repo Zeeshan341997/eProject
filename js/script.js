@@ -58,5 +58,11 @@ function toggleMenu(){
     navigation.classList.toggle('active');
 }
 
-
+// var Cb = document.getElementsByClassName(navbar-toggler);
+// if(Cb.click){
+//     document.getElementsByClassName('navbar').style.background = "white";
+// }
+// else{
+//     document.getElementsByClassName('navbar').style.background = "transparent";
+// }
 

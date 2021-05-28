@@ -78,3 +78,9 @@ i.bi-people-fill:hover{
 .navbar-nav > li{
     padding: 0 40px;  
 }
+@media (max-width: 768px)
+{
+    nav{
+        background: white;
+    }
+}
