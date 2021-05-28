@@ -140,4 +140,11 @@ body{
 }
 .brand-btn{
     width: 250px;
+    background-color: white;
+    height: 100px;
+    width: 250px;
+}
+.brand-btn img{
+    height: 50px;
+    width: 150px;
 }
