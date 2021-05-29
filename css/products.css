@@ -133,18 +133,91 @@ body{
 }
 
 .tabs-btn{
+    box-sizing: border-box;
+    justify-content: center;
     display: flex;
-    width: 600px;
-    position: relative;
+    width: 650px;
     margin-top: 10%;
+    justify-content: space-between;
 }
 .brand-btn{
     width: 250px;
     background-color: white;
     height: 100px;
     width: 250px;
+    align-items: center;
 }
+
+.brand-btn:hover{
+    box-shadow: 0 7px 9px 0 rgb(32 33 36 / 60%);
+    border-radius: 5px;
+}
+
 .brand-btn img{
-    height: 50px;
-    width: 150px;
+    height: auto;
+    width: 120px;
+}
+
+
+.toggle{
+    opacity: 0;
+    visibility: hidden;
+}
+
+@media (max-width: 768px)
+{
+
+    .toggle{
+        margin-top: 14%;
+        top: 0%;
+        padding: 10px;
+        visibility: visible;
+        opacity: 1;
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        cursor: pointer;
+        z-index: 100;
+        background-color: black;
+        color: white;
+    }
+
+    .toggle i{
+        justify-content: center;
+        padding: 5px 5px;
+    }
+    .toggle.active{
+        background: url(../images/close.png);
+        background-size: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .brand-btn{
+        margin: 10px;
+        height: 100px;
+        width: 150px;
+        display: inline;
+        text-align: center;
+    }
+
+	.tabs-btn.active
+	{
+		position: relative;
+	    margin-top: 20%;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		background: #fff;
+	}
+    .tabs-btn{
+        display: none;
+    }
+
+    .products{
+        margin-top: 30%;
+    }
 }
