@@ -21,7 +21,7 @@ footer{
     filter: none;
 }
 .bg{
-    background-image: linear-gradient(to right,rgba(0,0,0,0.1), rgba(97, 197, 255, 0.5));
+    background-image: url(../images/contact_bg.jpg);
     border-right: 1px groove lightgrey;
     
 }
