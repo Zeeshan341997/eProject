@@ -47,7 +47,7 @@ function mySliderDown(){
 
 AOS.init({
 duration: 2000,
-once: false,
+once: true,
 
 });
     
