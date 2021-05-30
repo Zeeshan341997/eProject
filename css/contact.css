@@ -1,3 +1,5 @@
-section{
-    height: 700px;
+.bg{
+    background-image: url(../images/contact_bg.jpg);
+    border-right: 1px groove lightgrey;
+    
 }

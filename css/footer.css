@@ -1,0 +1,12 @@
+footer{
+    background-color: black;
+    color: white;
+    /* border-top: 1px solid whitesmoke; */
+    /* box-shadow: inset 1px 1px 30px gray; */
+    
+}
+
+.footer-logo{
+    width: 60%;
+    height: 50px;
+}

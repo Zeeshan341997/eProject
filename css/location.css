@@ -1,3 +1,29 @@
 section{
-    height: 700px;
+    margin: 10% 5%;
+    justify-content: center;
+    box-shadow:0 6px 16px 0 rgb(32 33 36 / 40%);
+    display: flex;
+    border-radius: 25px;
+    padding: 20px;
+}
+.addressClass{
+    border-left: 1px solid gray;
+    padding: 40px;
+    margin-right: 40px;
+}
+
+.mapClass{
+    padding: 40px;
+    margin-left: 40px;
+}
+
+@media (max-width: 768px)
+{
+    section{
+        display: inline-block;
+        margin-top: 20%;
+    }
+    .addressClass{
+        border-left: none;
+    }
 }
