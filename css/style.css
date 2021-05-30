@@ -14,16 +14,7 @@ footer{
     box-shadow: inset 1px 1px 30px gray;
     
 }
-#brandsLogo a{
-    filter: grayscale(80%);
-}
-#brandsLogo a:hover{
-    filter: none;
-}
-.bg{
-    background-image: url(../images/contact_bg.jpg);
-    border-right: 1px groove lightgrey;
-    
-}
+
+
 
 
