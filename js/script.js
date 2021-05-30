@@ -17,17 +17,24 @@ window.addEventListener('scroll', navColor);
 
 // our team slider
 
-function mySliderUp(){
+// function mySliderUp(){
 
-    document.getElementById("slide").style.top = "-100%";
-    // document.getElementById("slide").style.animation = "fade-up";
-    // document.getElementById("slide").style.animationDuration = "0.8s";
-}
-function mySliderDown(){
-    document.getElementById("slide").style.top = "0";
-    // document.getElementById("slide").style.animatedClassName = 'fade-in';
-    // document.getElementById("slide").style.animationDuration = "0.8s";
-}
+//     var i=0;
+//     for(i="-200", i.length; i++;){
+//         document.getElementById("slide").style.top = "-100%";
+//     }
+
+//     // document.getElementById("slide").style.animation = "fade-up";
+//     // document.getElementById("slide").style.animationDuration = "0.8s";
+// }
+// function mySliderDown(){
+//     document.getElementById("slide").style.top = "0";
+//     document.getElementById("slide").style.top = "0";
+//     document.getElementById("slide").style.top = "0";
+
+//     // document.getElementById("slide").style.animatedClassName = 'fade-in';
+//     // document.getElementById("slide").style.animationDuration = "0.8s";
+// }
     // animation
 
 AOS.init({
