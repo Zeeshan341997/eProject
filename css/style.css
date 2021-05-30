@@ -8,32 +8,22 @@ body{
     width: 100%;
     align-items: center;
 }
-
-
-#titl{
-    width: 120px;
-    text-align: center;
-    font-weight: bold;
-    background-color: lightblue;
-    color: blue;
-    padding: 20px 20px 20px 20px;
-    display: inline-block;
-    position: absolute;
-    left: 50px;
-    top: 60px;
-    border-radius: 5px 5px 15px 15px;
+footer{
+    background-color: lightgrey;
+    border-top: 1px solid whitesmoke;
+    box-shadow: inset 1px 1px 30px gray;
+    
 }
-#titl2{
-    width: 120px;
-    text-align: center;
-    font-weight: bold;
-    background-color: lightblue;
-    color: blue;
-    padding: 20px 20px 20px 20px;
-    display: inline-block;
-    position: absolute;
-    left: 50px;
-    top: 380px;
-    border-radius: 5px 5px 15px 15px;
+#brandsLogo a{
+    filter: grayscale(80%);
 }
+#brandsLogo a:hover{
+    filter: none;
+}
+.bg{
+    background-image: url(../images/contact_bg.jpg);
+    border-right: 1px groove lightgrey;
+    
+}
+
 
