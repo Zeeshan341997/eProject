@@ -5,7 +5,15 @@
     
 }
 
-a{
+ul a{
+    list-style-type: none;
     text-decoration: none;
     color: white;
+}
+li a:hover{
+    color: black;
+}
+ul li{
+    list-style-type: none;
+
 }
