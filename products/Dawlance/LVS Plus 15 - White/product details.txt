@@ -1,0 +1,4 @@
+100% Copper Connecting Pipe
+Low Voltage Startup 150V
+High Efficiency Compressor
+Power Outage Memory
