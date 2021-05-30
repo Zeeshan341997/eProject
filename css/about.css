@@ -149,7 +149,7 @@ h1::after{
 .pro-text{
     transform: rotate(-90deg);
     z-index: 100;
-    color: white;
+    color: black;
     left: 30%;
     top: 10%;
 }
