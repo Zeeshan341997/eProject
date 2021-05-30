@@ -32,7 +32,7 @@ function mySliderDown(){
 
 AOS.init({
 duration: 2000,
-once: true,
+once: false,
 
 });
     
