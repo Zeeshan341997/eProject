@@ -1,9 +1,8 @@
 nav{
     display: flex;
     padding: 10px;
-    /* box-shadow: 1px 5px 15px gray; */
     z-index: 9;
-    background: transparent;
+    background: white;
 }
 
 .navbar-nav>li ,.navbar-nav>li>a{
@@ -16,8 +15,6 @@ nav{
 .logo{
     text-decoration: none;
     text-align: center;
-    font-size: 10px;
-    /* width: 120px; */
 }
 
 .display-box{
@@ -77,6 +74,10 @@ i.bi-people-fill:hover{
 
 .navbar-nav > li{
     padding: 0 40px;  
+}
+
+.navigation-bar{
+    height: auto;
 }
 @media (max-width: 768px)
 {
