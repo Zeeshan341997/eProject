@@ -147,10 +147,17 @@ h1::after{
 }
 .pro-text,.pro-dis{
     transform: rotate(-90deg);
-    z-index: 200;
+    z-index: 100;
     color: white;
     left: 30%;
     top: 10%;
+}
+.mycontainer .box .imgBx .pro-text .pro-dis.prz{
+    transform: rotate(-90deg);
+    z-index: 1200;
+    color: white;
+    left: 0%;
+    top: 0%;
 }
 .mycontainer .box:last-child
 {
