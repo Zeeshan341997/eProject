@@ -199,14 +199,15 @@ h1::after{
 	{
 		flex-direction: column;
 		flex-wrap: wrap;
-    	width: calc(100% - 30px);
-    	height: calc(100% - 170px);
+    	width: calc(100% - 0px);
+    	height: calc(100% - 0px);
 	}
 	.mycontainer .box
 	{
 		width: 100%;
 		height: 25%;
 		border-bottom: 10px solid #fff;
+        border-radius: 25px;
 	}
 	.mycontainer .box .imgBx.active
 	{
